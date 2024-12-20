@@ -1,0 +1,828 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: auto;
+    height: 650px;
+    background-color: bisque;
+    background-image: url(wave.png);
+    background-position: center;
+    background-size: cover;
+   
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.topnav{
+    height: 50px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: 3rem;
+
+}
+.topnav {
+  overflow: hidden;
+ 
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ 
+}
+
+.topnav a:hover {
+  background-color: #a8ea75;
+  color: black;
+  border-radius: 10px;
+  font-size: 1.8rem;
+}
+.active{
+  font-size: 2rem;
+}
+
+a {
+    margin-top: 1rem;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 1.rem;
+}
+.button{
+    width: 200px;
+    /* background-color: black; */
+    margin-top: 4rem;
+    margin-right: 4rem;
+    display: flex;
+    cursor: pointer;
+  
+
+  }
+  #phone{
+    width: 30px;
+    height: 30px;
+     /* background-color: aliceblue; */
+    border-radius: 50%; cursor: pointer;
+
+  }
+  #num{
+    width: 100px;
+    height: 30px;
+    /* background-color: aliceblue; */
+    border-radius: 30px;
+    margin-left: 2vh;
+    cursor: pointer;
+
+  }
+  .all-text{
+    margin-top: 12rem;
+    margin-left: 10rem;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blanchedalmond; */
+    /* padding-top: 8rem; */
+    /* background-color: blanchedalmond; */
+  }
+  .text{
+    margin-top: 4rem;
+    /* background-color: aqua; */
+  }
+  #photo{ 
+    display: flex;
+    
+  }
+  #black{
+    height: 50px;
+    width: 50px;
+    /* background-color: blueviolet; */
+    border-radius: 50%;
+    background-image: url(happy-bearded-young-man.jpg);
+    background-position: center;
+    background-size: cover;
+   
+
+  }
+  #hello{
+    height: 50px;
+    width: 140px;
+    font-size: 20px;
+    border-radius: 3rem;
+    color: dark black;
+    padding: 1vh;
+    margin-left: 2vh;
+    border: none;
+  }
+  #work{
+    height: 40px;
+    width: 300px;
+    font-size:3vh ;
+    margin-top: 2vh;
+    border-radius: 30px;
+    color: rgb(30, 165, 59);
+    border: none;
+  }
+  #lets{
+    height: 30px;
+    width: 90px;
+    margin-top: 2vh;
+    border-radius: 2rem;
+    background-color: rgb(99, 99, 222);
+    color: white;
+    border: none;
+   
+  }
+  .second{
+    /* background-color: black; */
+    margin-right: 25rem;
+    /* margin-bottom: 6rem; */
+  }
+  #blank{
+    height: 250px;
+    width: 250px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 50%;
+    /* margin-bottom: 10rem; */
+    
+  }
+  .image{
+    height: 250px;
+    width: 250px;
+    background-image: url(portrait-happy-excited-man-holding-laptop-computer.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    bottom: 200px;
+    left: 40px;
+    margin-bottom: 3rem;
+  }
+
+/* second div start css */
+
+  .couple-image{
+    height: 300px;
+    width: 400px;
+    background-image: url(couple-working-from-home-together-sofa.jpg);
+    background-position: center;
+    background-size: cover;
+    border: none;
+    border-radius: 30px;
+    
+  }
+  
+  .container-2{
+    display: flex;
+    margin-top: 4rem;
+    margin-left: 14rem;
+    gap: 30px;
+
+  }
+  .story{
+    /* background-color: aquamarine; */
+    height: 250px;
+    width: 350px;
+
+  }
+  .card{
+    height: 100px;
+    width: auto;
+    background-color: rgb(28, 189, 114);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 10px;
+   
+  }
+  h2{
+    margin-left: 10rem;
+    color: aliceblue;
+  }
+  #photo-2{
+    height: 70px;
+    width:70px;
+    background-color: aliceblue;
+    background-image: url(happy-bearded-young-man.jpg);
+    background-position: center;
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+  }
+  h3{
+    margin-top: 1rem;
+    font: bold;
+
+  }
+  p{
+    margin-top: 1rem;
+  }
+  .container-4{
+    background-color:whitesmoke;
+    margin-top: 4rem;
+    display: flex;
+  }
+  table{
+    height: 15rem;
+    width: 25rem;
+    /* border: 1px solid black; */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 12rem;
+    font-size: 1rem;
+    border-radius: 7px;
+    /* background-color: whitesmoke; */
+    
+  }
+ 
+  #data{
+    color: rgb(30, 153, 112);
+    /* border-right: 1px solid black; */
+    border-top: none;
+    /* margin-left: 1rem; */
+    
+  }
+  .header{
+    border: 1px solid black;
+    font-size: 2rem;
+  }
+  tr{
+    border: 1px solid black;
+  }
+ 
+ 
+  #num-1{
+    color: black;
+  }
+  .container-3{
+  background-color: whitesmoke;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    border-radius: 4px;
+    
+
+  }
+  .expert-1{
+    display: flex;
+
+
+  }
+  .expert-2{
+    display: flex;
+    margin-top: 3rem;
+    
+  }
+  #num-1{
+    margin-right:  1rem;
+    margin-left: 1rem;
+    margin-top: 20px;
+  }
+  #text-1{
+    margin-left: 1rem;
+    margin-right:  1rem;
+    color: rgb(30, 153, 112);
+  }
+  .container-5{
+    align-items: center;
+    margin-top: 3rem;
+    
+  }
+  .imge-box{
+    display: flex;
+   
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 14rem;
+    margin-left: 14rem;
+  
+  }
+  
+  #text-5{
+    margin-left: 30rem;
+    margin-top: 8rem;
+  }
+  .service{
+    height: 7rem;
+    width: 50rem;
+    margin-left: 11rem;
+    margin-top: 10rem;
+    border-radius: 8px;
+    background-color: rgb(25, 164, 117);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+   }
+  #handshake-image{
+    height: 100px;
+    width: 100px;
+    background-image: url(handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+
+  }
+  #text-6{
+    color: azure;
+    font-size: 3rem;
+    font: bold;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    
+  }
+  .container-6{
+    /* width: auto; */
+    /* background-color: black; */
+    margin-top: 3rem;
+    display: flex;
+  }
+  .head{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+  }
+  #text-7{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  #num-5{
+    border-radius: 3rem;
+    height: 24px;
+    width: 4rem;
+    color: azure;
+    margin-left: 11rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    background-color: rgb(80, 80, 233);
+  }
+  #text-8{
+    font-weight: 200;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+  }
+  #text-9{
+    font-size: large;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 2rem;
+    width: 9rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    background-color: whitesmoke;
+
+  }
+  #logo-4{
+    margin-left: 20rem;
+    /* margin-right: 4rem; */
+    /* background-color: bisque; */
+    height: 10rem;
+    width: 10rem;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-40deg);
+    /* background-color: aqua; */
+  }
+  .i{
+    size: 3rem;
+  }
+  .info-1{
+    margin-left: 5rem;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border-color: 4px solid black;
+    /* background-color: bisque; */
+    /* background-color: aqua; */
+  }
+  .info-2{
+    background-color: whitesmoke;
+    margin-left: 2rem;
+    border:  1px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 4rem;
+  }
+  .container-7{
+    margin-top: 1rem;
+    display: flex;
+  }
+  #keyboard-image{
+    height: 80px;
+    width: 80px;
+    background-image: url(keyboard.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+
+  }
+  .project{
+    height: 6rem;
+    width: 30rem;
+    margin-left: 19rem;
+    margin-top: 13rem;
+    border-radius: 8px;
+    background-color: rgb(25, 164, 117);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+   }
+   .container-8{
+    /* background-color: whitesmoke; */
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 10rem;
+
+   }
+   .drink{
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    /* margin-left: ; */
+
+   }
+   .sport{
+    background-color: whitesmoke;
+    margin-left: 2rem;
+    border-radius: 1rem;
+   }
+   .work{
+    background-color: whitesmoke;
+    margin-left: 2rem;
+    border-radius: 1rem;
+   }
+   
+   #text-10{
+    color: aquamarine;
+    margin-left: 1rem;
+    margin-top: 4px;
+   }
+   #text-11{
+    color: black;
+    margin-top: 5px;
+    margin-left: 1rem;
+   }
+   #drink-image{
+    height: 200px;
+    width: 200px;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    /* transform: rotate(10deg);
+    position: none; */
+    background-image: url(drink.jpg);
+    background-position: center;
+    background-size: cover;
+   }
+   #sport-image{
+    height: 200px;
+    width: 200px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+   
+    /* transform: rotate(10deg);
+    position: none; */
+    background-image: url(sport.jpg);
+    background-position: center;
+    background-size: cover;
+   }
+   #work-time{
+    height: 200px;
+    width: 200px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+
+    /* transform: rotate(10deg);
+    position: none; */
+    background-image: url(work-time.jpg);
+    background-position: center;
+    background-size: cover;
+   }
+
+   .Say-Hi{
+    height: 6rem;
+    width: 30rem;
+    margin-left: 20rem;
+    margin-top: 8rem;
+    border-radius: 8px;
+    background-color: rgb(25, 164, 117);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+   }
+   #laptop-image{
+    height: 80px;
+    width: 80px;
+    background-image: url(laptop.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+     }
+     .container-9{
+      width: auto;
+      margin-left: 3rem;
+      margin-top: 3rem;
+      display: flex;
+      /* background-color: whitesmoke; */
+     
+     }
+     .social-media{
+      margin-left: 1rem;
+      /* background-color: whitesmoke; */
+     }
+     .contact{
+      margin-left: 1rem;
+      border-left: 1px solid black;
+      /* background-color: whitesmoke; */
+     }
+     #text-12{
+      color: black;
+      margin-top: 2rem;
+      margin-left: 1rem;
+     }
+     #text-13{
+      margin-left: 1rem;
+     }
+  .first-button{
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  .second-button{
+    margin-top: 5px;
+    margin-left: 1rem;
+  }
+  #branding{
+    margin-left: 1rem;
+    /* background-color: white; */
+  }
+  #seo{
+    margin-left: 1rem;
+  }
+  .social-divs{
+    margin-top: 1rem;
+    
+    display: flex;
+    justify-content: space-evenly;
+   
+  }
+  .personal-info{
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .source{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+  }
+  input{
+    height: 35px;
+    width: 250px;
+  }
+  #site{
+    height: 70px;
+    width: 120px;
+    margin-left: 10px;
+    border: 1px solid black;
+    /* border-radius: 10px; */
+    background-color:white;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* text-align: center; */
+   
+   
+    /* display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */ 
+  }
+  #icon-3{
+    margin-top: 15px;
+  }
+  textarea{
+    height: 100px;
+    width: 515px;
+    margin-top: 1rem;
+    margin-left: 1.8rem;
+  }
+  i{
+    color: black;
+  }
+  .send{
+    height: 35px;
+    width: 100px;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-left: 28rem;
+    background-color: rgb(47, 232, 170);
+
+  }
+  #list{
+    display: none;
+    
+  }
+  .tag-1{
+    display: none;
+    
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border-radius: 1rem;
+    background-color: #84dda9;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 80px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #6542b7;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #e3b1e8;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 30px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+ 
+  @media (max-width: 400px){
+
+    .container-9{
+     flex-direction: column;
+     margin-left: 1rem;
+    }
+    a{
+      flex-direction: row;
+    }
+    .contact{
+      border-left: none;
+    }
+    .Say-Hi, .project, .service{
+      margin-left: 2.2rem;
+      width: 320px;
+      height: 8rem;
+    }
+    .container-8{
+      flex-direction: column;
+      margin-left: 1rem;
+    }
+    .project{
+      margin-left: 1rem;
+    }
+    .container-6,.container-4,.container-2{
+      flex-direction: column;
+      margin-left: 1rem;
+    }
+    .container-7{
+      flex-direction: column;
+      margin-left: 1rem;
+    }
+    #text-5{
+      margin-left: 1rem;
+    }
+    .imge-box,.container-2{
+     margin-left: 1rem;
+    }
+    .send{
+      height: 40px;
+      width: 340px;
+      margin-left: 1.2rem;
+    }
+    .source{
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    textarea{
+      height: 100px;
+      width: 330px;
+      margin-top: 1rem;
+      margin-left: 1.5rem;
+    }
+    #site{
+      width: 150px;
+    }
+    input{
+      margin-top: 1rem;
+      width: 320px;
+
+    }
+    .drink, .sport, .work{
+      margin-top: 2rem;
+      background-color: white;
+    }
+    .drink, .info-1{
+      margin-left: 2rem;
+    }
+    .info-2{
+      margin-top: 2rem;
+      margin-right: 2rem;
+    }
+    .info-1{
+      margin-right: 2rem;
+    }
+     .container-5{
+      position: relative;
+      margin-left: 2rem;
+      margin-right: 5rem;
+
+    
+    }
+    table{
+      margin-left: 2rem;
+      margin-right: 10rem;
+    }
+    
+    .container-3{
+      margin-top: 2rem;
+    }
+    .container-4{
+      margin-top: 6rem;
+    }
+    #logo-4{
+      margin-left: 11rem;
+    }
+    #num-5{
+      margin-left: 4rem;
+    }
+    .couple-image{
+      height: 250px;
+    width: 350px;
+    }
+    .all-text{
+      margin-top: 1rem;
+      margin-left: 3rem;
+      flex-direction: column;
+    }
+    h4{
+      display: none;
+    }
+    #list{
+      display: block;
+      font-size: 2rem;
+    
+    }
+    #heading{
+      display: flex;
+      align-items: center;
+
+      /* justify-content: space-evenly; */
+    }
+    .button{
+      margin-top: 3.7rem;
+      margin-left: 2rem;
+    }
+    h1{
+      margin-left: 2rem;
+     }
+     
+
+  }
+  h4:hover{
+    color: aquamarine;
+  }
+  #num:hover{
+    background-color: rgb(10, 137, 86);
+  }
+  #phone:hover{
+    background-color:rgb(11, 145, 91);
+  }
+ 
